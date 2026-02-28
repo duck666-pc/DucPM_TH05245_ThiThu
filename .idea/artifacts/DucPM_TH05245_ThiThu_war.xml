@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DucPM_TH05245_ThiThu:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DucPM_TH05245_ThiThu</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DucPM_TH05245_ThiThu-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DucPM_TH05245_ThiThu:war exploded" />
+    </root>
+  </artifact>
+</component>
