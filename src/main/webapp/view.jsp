@@ -26,16 +26,16 @@
         </tr>
     </thead>
     <tbody>
-        <c:forEach items="${phgr}" var="phgr">
+        <c:forEach items="${phgr}" var="p">
             <tr>
-                <td>${phgr.id}</td>
-                <td>${phgr.loaiPhieuGiamGia}</td>
-                <td>${phgr.ma}</td>
-                <td>${phgr.ten}</td>
-                <td>${phgr.soLuong}</td>
-                <td>${phgr.loaiGiam}</td>
-                <td>${phgr.dieuKienToiThieu}</td>
-                <td>${phgr.giaTriToiDa}</td>
+                <td>${p.id}</td>
+                <td>${p.loaiPhieuGiamGia}</td>
+                <td>${p.ma}</td>
+                <td>${p.ten}</td>
+                <td>${p.soLuong}</td>
+                <td>${p.loaiGiam}</td>
+                <td>${p.dieuKienToiThieu}</td>
+                <td>${p.giaTriToiDa}</td>
             </tr>
         </c:forEach>
     </tbody>

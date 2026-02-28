@@ -17,9 +17,9 @@ public class PhieuGiamGiaService extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String uri = req.getRequestURI();
-        if(uri.equals("hien-thi")){
-            req.setAttribute("phgr", phgr);
-            req.setAttribute("lphgr", lphgr);
+        if(uri.contains("hien-thi")){
+            req.setAttribute("phgr", phgr.getAll());
+            req.setAttribute("lphgr", lphgr.getAll());
             req.getRequestDispatcher("/view.jsp").forward(req, resp);
         }
     }
